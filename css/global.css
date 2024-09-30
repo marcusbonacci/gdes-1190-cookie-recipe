@@ -1,0 +1,64 @@
+@property --bg {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #fefbef; 
+ }
+ 
+ @property --primary {
+     syntax: "<color>";
+     inherits: false;
+     initial-value: #1a1813; 
+ }
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 1rem;
+    font-family: "Roboto", sans-serif;
+    color: var(--primary);
+    height: 100vh;
+}
+
+.pagewrap {
+    padding: 1rem;
+    background: var(--bg);
+    min-height: calc(100% - 40px);
+}
+
+/* Main */
+
+
+h1, sub, img, p, h1, h2 {
+    margin: .5rem;
+}
+
+hr {
+    margin: .5rem;
+    margin-bottom: 0;
+}
+
+/* table {
+    border-spacing: 10px;
+}
+
+td {
+    padding: 10px;
+} */
+
+table {
+    width: 400px;
+    border-spacing: 5px;
+} 
+
+th {
+    text-align: left;
+}
+
+th, td {
+    padding: 5px;
+    background-color: #f0e1bb57;
+    color: black;
+    background-clip: padding-box;
+}
