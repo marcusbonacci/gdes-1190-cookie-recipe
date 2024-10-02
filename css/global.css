@@ -30,7 +30,8 @@ body {
 /* Main */
 
 
-h1, sub, img, p, h1, h2 {
+h1, h2, h3, 
+sub, img, p {
     margin: .5rem;
 }
 
